@@ -5,7 +5,8 @@ uses
   TabelKelas in 'TabelKelas.pas' {Form1},
   TabelWaliKelas in 'TabelWaliKelas.pas' {Form2},
   TabelOrtu in 'TabelOrtu.pas' {Form3},
-  TabelSiswa in 'TabelSiswa.pas' {Form4};
+  TabelSiswa in 'TabelSiswa.pas' {Form4},
+  TabelPoin in 'TabelPoin.pas' {Form5};
 
 {$R *.res}
 
@@ -15,5 +16,6 @@ begin
   Application.CreateForm(TForm3, Form3);
   Application.CreateForm(TForm2, Form2);
   Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm5, Form5);
   Application.Run;
 end.
