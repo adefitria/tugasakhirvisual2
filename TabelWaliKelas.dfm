@@ -226,23 +226,23 @@ object Form2: TForm2
     Height = 21
     TabOrder = 12
   end
-  object Edit7: TEdit
-    Left = 184
-    Top = 336
-    Width = 161
-    Height = 21
-    TabOrder = 13
-  end
   object c1: TComboBox
     Left = 184
     Top = 128
     Width = 161
     Height = 21
     ItemHeight = 13
-    TabOrder = 14
+    TabOrder = 13
     Items.Strings = (
       'L'
       'P')
+  end
+  object Edit7: TEdit
+    Left = 184
+    Top = 336
+    Width = 161
+    Height = 21
+    TabOrder = 14
   end
   object ds1: TDataSource
     DataSet = zqry1
@@ -280,7 +280,7 @@ object Form2: TForm2
     Left = 512
     Top = 56
   end
-  object TfrxReport
+  object frxrprt1: TfrxReport
     Version = '4.12.6'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'

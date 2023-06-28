@@ -30,12 +30,13 @@ type
     Edit4: TEdit;
     Edit5: TEdit;
     Edit6: TEdit;
-    Edit7: TEdit;
     c1: TComboBox;
     ds1: TDataSource;
     con1: TZConnection;
     zqry1: TZQuery;
     frxdbdtst1: TfrxDBDataset;
+    Edit7: TEdit;
+    frxrprt1: TfrxReport;
     procedure editbersih;
     procedure editenable;
     procedure posisiawal;

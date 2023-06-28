@@ -251,12 +251,16 @@ object Form3: TForm3
     Height = 21
     TabOrder = 14
   end
-  object Edit8: TEdit
+  object c2: TComboBox
     Left = 184
     Top = 368
     Width = 161
     Height = 21
+    ItemHeight = 13
     TabOrder = 15
+    Items.Strings = (
+      'Hidup'
+      'Alm')
   end
   object ds1: TDataSource
     DataSet = zqry1
