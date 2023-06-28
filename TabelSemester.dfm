@@ -323,7 +323,7 @@ object Form6: TForm6
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45101.545964409700000000
-    ReportOptions.LastChange = 45105.720428090280000000
+    ReportOptions.LastChange = 45105.814095439800000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -411,7 +411,7 @@ object Form6: TForm6
         object Memo4: TfrxMemoView
           Left = 113.385900000000000000
           Top = 15.118120000000000000
-          Width = 68.031540000000000000
+          Width = 71.811070000000000000
           Height = 18.897650000000000000
           ShowHint = False
           Font.Charset = DEFAULT_CHARSET
@@ -426,9 +426,9 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo5: TfrxMemoView
-          Left = 476.220780000000000000
+          Left = 483.779840000000000000
           Top = 15.118120000000000000
-          Width = 75.590600000000000000
+          Width = 79.370130000000000000
           Height = 18.897650000000000000
           ShowHint = False
           Font.Charset = DEFAULT_CHARSET
@@ -443,7 +443,7 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo10: TfrxMemoView
-          Left = 551.811380000000000000
+          Left = 563.149970000000000000
           Top = 15.118120000000000000
           Width = 71.811070000000000000
           Height = 18.897650000000000000
@@ -460,7 +460,7 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo12: TfrxMemoView
-          Left = 181.417440000000000000
+          Left = 185.196970000000000000
           Top = 15.118120000000000000
           Width = 60.472480000000000000
           Height = 18.897650000000000000
@@ -477,7 +477,7 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo13: TfrxMemoView
-          Left = 241.889920000000000000
+          Left = 245.669450000000000000
           Top = 15.118120000000000000
           Width = 68.031540000000000000
           Height = 18.897650000000000000
@@ -494,7 +494,7 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo14: TfrxMemoView
-          Left = 309.921460000000000000
+          Left = 313.700990000000000000
           Top = 15.118120000000000000
           Width = 71.811070000000000000
           Height = 18.897650000000000000
@@ -511,9 +511,9 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo15: TfrxMemoView
-          Left = 381.732530000000000000
+          Left = 385.512060000000000000
           Top = 15.118120000000000000
-          Width = 94.488250000000000000
+          Width = 98.267780000000000000
           Height = 18.897650000000000000
           ShowHint = False
           Font.Charset = DEFAULT_CHARSET
@@ -528,9 +528,9 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo16: TfrxMemoView
-          Left = 623.622450000000000000
+          Left = 634.961040000000000000
           Top = 15.118120000000000000
-          Width = 98.267780000000000000
+          Width = 83.149660000000000000
           Height = 18.897650000000000000
           ShowHint = False
           Font.Charset = DEFAULT_CHARSET
@@ -591,7 +591,7 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo8: TfrxMemoView
-          Left = 109.606370000000000000
+          Left = 113.385900000000000000
           Width = 71.811070000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -610,7 +610,7 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo9: TfrxMemoView
-          Left = 181.417440000000000000
+          Left = 185.196970000000000000
           Width = 60.472480000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -629,7 +629,7 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo11: TfrxMemoView
-          Left = 241.889920000000000000
+          Left = 245.669450000000000000
           Width = 68.031540000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -648,7 +648,7 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo17: TfrxMemoView
-          Left = 309.921460000000000000
+          Left = 313.700990000000000000
           Width = 71.811070000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -667,8 +667,8 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo18: TfrxMemoView
-          Left = 381.732530000000000000
-          Width = 94.488250000000000000
+          Left = 385.512060000000000000
+          Width = 98.267780000000000000
           Height = 18.897650000000000000
           ShowHint = False
           DataField = 'tanggal'
@@ -686,7 +686,7 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo19: TfrxMemoView
-          Left = 476.220780000000000000
+          Left = 483.779840000000000000
           Width = 75.590600000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -705,7 +705,7 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo20: TfrxMemoView
-          Left = 551.811380000000000000
+          Left = 559.370440000000000000
           Width = 75.590600000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -724,8 +724,8 @@ object Form6: TForm6
           ParentFont = False
         end
         object Memo21: TfrxMemoView
-          Left = 627.401980000000000000
-          Width = 90.708720000000000000
+          Left = 634.961040000000000000
+          Width = 83.149660000000000000
           Height = 18.897650000000000000
           ShowHint = False
           DataField = 'tingkat_kelas'

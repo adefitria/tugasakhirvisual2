@@ -54,6 +54,7 @@ type
 
 var
   Form7: TForm7;
+  id : string;
 
 implementation
 

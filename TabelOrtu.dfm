@@ -271,6 +271,7 @@ object Form3: TForm3
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
+    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'tugasakhir'
@@ -282,6 +283,7 @@ object Form3: TForm3
   end
   object zqry1: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
       'select * from tabel_ortu')
     Params = <>
@@ -305,7 +307,7 @@ object Form3: TForm3
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45101.545964409700000000
-    ReportOptions.LastChange = 45105.402238414400000000
+    ReportOptions.LastChange = 45105.804385046300000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'

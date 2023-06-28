@@ -48,6 +48,7 @@ type
 
 var
   Form5: TForm5;
+  id : string;
 
 implementation
 
@@ -97,18 +98,7 @@ b5.Enabled:= True;
 
 editenable;
 end;
-procedure TForm5.b1Click(Sender: TObject);
-begin
-editbersih;
 
-b1.Enabled:= false;
-b2.Enabled:= True;
-b3.Enabled:= False;
-b4.Enabled:= False;
-b5.Enabled:= True;
-
-editenable;
-end;
 
 procedure TForm5.b2Click(Sender: TObject);
 begin

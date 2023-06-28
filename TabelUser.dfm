@@ -1,8 +1,8 @@
 object Form8: TForm8
-  Left = 191
-  Top = 382
+  Left = 299
+  Top = 161
   Width = 928
-  Height = 480
+  Height = 528
   Caption = 'Form8'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -205,7 +205,7 @@ object Form8: TForm8
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45101.545964409700000000
-    ReportOptions.LastChange = 45105.745561817100000000
+    ReportOptions.LastChange = 45105.803270046300000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -408,7 +408,7 @@ object Form8: TForm8
         end
         object Memo9: TfrxMemoView
           Left = 381.732530000000000000
-          Width = 117.165430000000000000
+          Width = 113.385900000000000000
           Height = 18.897650000000000000
           ShowHint = False
           DataField = 'level'
@@ -426,8 +426,8 @@ object Form8: TForm8
           ParentFont = False
         end
         object Memo11: TfrxMemoView
-          Left = 498.897960000000000000
-          Width = 105.826840000000000000
+          Left = 495.118430000000000000
+          Width = 109.606370000000000000
           Height = 18.897650000000000000
           ShowHint = False
           DataField = 'status'

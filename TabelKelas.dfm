@@ -191,7 +191,7 @@ object Form1: TForm1
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45101.545964409700000000
-    ReportOptions.LastChange = 45105.372537419000000000
+    ReportOptions.LastChange = 45105.805547824100000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -243,7 +243,7 @@ object Form1: TForm1
         Top = 90.708720000000000000
         Width = 718.110700000000000000
         object Memo2: TfrxMemoView
-          Left = 15.118120000000000000
+          Left = 177.637910000000000000
           Top = 15.118120000000000000
           Width = 30.236240000000000000
           Height = 18.897650000000000000
@@ -260,7 +260,7 @@ object Form1: TForm1
           ParentFont = False
         end
         object Memo3: TfrxMemoView
-          Left = 45.354360000000000000
+          Left = 207.874150000000000000
           Top = 15.118120000000000000
           Width = 136.063080000000000000
           Height = 18.897650000000000000
@@ -277,7 +277,7 @@ object Form1: TForm1
           ParentFont = False
         end
         object Memo4: TfrxMemoView
-          Left = 181.417440000000000000
+          Left = 343.937230000000000000
           Top = 15.118120000000000000
           Width = 117.165430000000000000
           Height = 18.897650000000000000
@@ -294,7 +294,7 @@ object Form1: TForm1
           ParentFont = False
         end
         object Memo5: TfrxMemoView
-          Left = 298.582870000000000000
+          Left = 461.102660000000000000
           Top = 15.118120000000000000
           Width = 94.488250000000000000
           Height = 18.897650000000000000
@@ -319,7 +319,7 @@ object Form1: TForm1
         DataSetName = 'frxDBDataset1'
         RowCount = 0
         object Memo6: TfrxMemoView
-          Left = 15.118120000000000000
+          Left = 177.637910000000000000
           Width = 30.236240000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -338,7 +338,7 @@ object Form1: TForm1
           ParentFont = False
         end
         object Memo7: TfrxMemoView
-          Left = 45.354360000000000000
+          Left = 207.874150000000000000
           Width = 136.063080000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -357,7 +357,7 @@ object Form1: TForm1
           ParentFont = False
         end
         object Memo8: TfrxMemoView
-          Left = 181.417440000000000000
+          Left = 343.937230000000000000
           Width = 117.165430000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -376,7 +376,7 @@ object Form1: TForm1
           ParentFont = False
         end
         object Memo9: TfrxMemoView
-          Left = 298.582870000000000000
+          Left = 461.102660000000000000
           Width = 94.488250000000000000
           Height = 18.897650000000000000
           ShowHint = False

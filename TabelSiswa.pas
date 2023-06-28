@@ -67,6 +67,8 @@ var
 
 implementation
 
+uses TabelSemester;
+
 {$R *.dfm}
 
 procedure TForm4.editbersih;

@@ -1,6 +1,6 @@
 object Form5: TForm5
-  Left = 388
-  Top = 115
+  Left = 275
+  Top = 153
   Width = 928
   Height = 480
   Caption = 'Form5'
@@ -213,7 +213,7 @@ object Form5: TForm5
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45101.545964409700000000
-    ReportOptions.LastChange = 45105.599506168980000000
+    ReportOptions.LastChange = 45105.793599826400000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -381,7 +381,7 @@ object Form5: TForm5
           Width = 136.063080000000000000
           Height = 18.897650000000000000
           ShowHint = False
-          DataField = 'nama'
+          DataField = 'nama_poin'
           DataSet = frxdbdtst1
           DataSetName = 'frxDBDataset1'
           Font.Charset = DEFAULT_CHARSET
@@ -392,7 +392,7 @@ object Form5: TForm5
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           HAlign = haCenter
           Memo.UTF8 = (
-            '[frxDBDataset1."nama"]')
+            '[frxDBDataset1."nama_poin"]')
           ParentFont = False
         end
         object Memo8: TfrxMemoView

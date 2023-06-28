@@ -1,6 +1,6 @@
 object Form7: TForm7
-  Left = 256
-  Top = 319
+  Left = 233
+  Top = 140
   Width = 928
   Height = 480
   Caption = 'Form7'
@@ -232,7 +232,7 @@ object Form7: TForm7
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45101.545964409700000000
-    ReportOptions.LastChange = 45105.737557743100000000
+    ReportOptions.LastChange = 45105.810324965300000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'

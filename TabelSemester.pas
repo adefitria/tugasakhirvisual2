@@ -69,6 +69,8 @@ var
 
 implementation
 
+uses TabelUser;
+
 {$R *.dfm}
 
 procedure TForm6.editbersih;
@@ -234,12 +236,12 @@ begin
 posisiawal;
 end;
 
-procedure TForm8.FormShow(Sender: TObject);
+procedure TForm6.FormShow(Sender: TObject);
 begin
 posisiawal;
 end;
 
-procedure TForm8.dg1CellClick(Column: TColumn);
+procedure TForm6.dg1CellClick(Column: TColumn);
 begin
 editenable;
 b1.Enabled:= true;
