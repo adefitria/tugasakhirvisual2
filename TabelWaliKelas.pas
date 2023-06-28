@@ -56,6 +56,7 @@ type
 
 var
   Form2: TForm2;
+  id : string;
 
 implementation
 

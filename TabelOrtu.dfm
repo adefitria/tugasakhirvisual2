@@ -271,7 +271,6 @@ object Form3: TForm3
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
-    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'tugasakhir'
@@ -283,7 +282,6 @@ object Form3: TForm3
   end
   object zqry1: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'select * from tabel_ortu')
     Params = <>
