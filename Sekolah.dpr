@@ -9,7 +9,8 @@ uses
   TabelPoin in 'TabelPoin.pas' {Form5},
   TabelSemester in 'TabelSemester.pas' {Form6},
   TabelHubungan in 'TabelHubungan.pas' {Form7},
-  TabelUser in 'TabelUser.pas' {Form8};
+  TabelUser in 'TabelUser.pas' {Form8},
+  MenuUtama in 'MenuUtama.pas' {Form9};
 
 {$R *.res}
 
@@ -23,5 +24,6 @@ begin
   Application.CreateForm(TForm6, Form6);
   Application.CreateForm(TForm7, Form7);
   Application.CreateForm(TForm8, Form8);
+  Application.CreateForm(TForm9, Form9);
   Application.Run;
 end.

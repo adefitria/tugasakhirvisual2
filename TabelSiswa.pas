@@ -21,7 +21,6 @@ type
     l9: TLabel;
     l10: TLabel;
     l11: TLabel;
-    l12: TLabel;
     Edit1: TEdit;
     Edit2: TEdit;
     b1: TButton;

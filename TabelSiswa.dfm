@@ -1,6 +1,6 @@
 object Form4: TForm4
-  Left = 241
-  Top = 145
+  Left = 294
+  Top = 114
   Width = 928
   Height = 546
   Caption = 'Form4'
@@ -137,19 +137,6 @@ object Form4: TForm4
     Width = 38
     Height = 13
     Caption = 'STATUS'
-  end
-  object l12: TLabel
-    Left = 288
-    Top = 16
-    Width = 159
-    Height = 33
-    Caption = 'FORM SISWA'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -27
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
   end
   object Edit1: TEdit
     Left = 192
@@ -303,8 +290,8 @@ object Form4: TForm4
   end
   object ds1: TDataSource
     DataSet = zqry1
-    Left = 456
-    Top = 288
+    Left = 280
+    Top = 32
   end
   object con1: TZConnection
     ControlsCodePage = cGET_ACP
@@ -317,8 +304,8 @@ object Form4: TForm4
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 'D:\Tugas Akhir Visual2\libmysql.dll'
-    Left = 376
-    Top = 288
+    Left = 152
+    Top = 32
   end
   object zqry1: TZQuery
     Connection = con1
@@ -326,16 +313,16 @@ object Form4: TForm4
     SQL.Strings = (
       'select * from table_siswa')
     Params = <>
-    Left = 416
-    Top = 288
+    Left = 216
+    Top = 32
   end
   object frxdbdtst1: TfrxDBDataset
     UserName = 'frxDBDataset1'
     CloseDataSource = False
     DataSet = zqry1
     BCDToCurrency = False
-    Left = 496
-    Top = 288
+    Left = 344
+    Top = 32
   end
   object frxrprt1: TfrxReport
     Version = '4.12.6'
@@ -352,8 +339,8 @@ object Form4: TForm4
       'begin'
       ''
       'end.')
-    Left = 536
-    Top = 288
+    Left = 408
+    Top = 32
     Datasets = <
       item
         DataSet = frxdbdtst1
