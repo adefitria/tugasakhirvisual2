@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, Menus, ToolWin, ActnMan, ActnCtrls, ActnMenus;
+  Dialogs, Menus, ToolWin, ActnMan, ActnCtrls, ActnMenus, ExtCtrls;
 
 type
   TForm9 = class(TForm)
@@ -29,6 +29,7 @@ type
     procedure HUBUNGAN1Click(Sender: TObject);
     procedure USER1Click(Sender: TObject);
     procedure EXIT1Click(Sender: TObject);
+  
   private
     { Private declarations }
   public
@@ -40,12 +41,15 @@ var
 
 implementation
 
+uses TabelWaliKelas, TabelOrtu, TabelSiswa, TabelPoin, TabelSemester,
+  TabelHubungan, TabelUser, TabelKelas;
+
 {$R *.dfm}
 
 
 procedure TForm9.KELAS1Click(Sender: TObject);
 begin
-Form1.ShowModal;
+Formkls.ShowModal;
 end;
 
 procedure TForm9.WALIKELAS1Click(Sender: TObject);

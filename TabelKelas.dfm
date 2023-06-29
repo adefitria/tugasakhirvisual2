@@ -1,9 +1,9 @@
-object Form1: TForm1
+object Formkls: TFormkls
   Left = 266
   Top = 188
   Width = 928
   Height = 480
-  Caption = 'Form1'
+  Caption = 'Formkls'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -155,7 +155,6 @@ object Form1: TForm1
     AutoEncodeStrings = False
     Properties.Strings = (
       'controls_cp=GET_ACP')
-    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'tugasakhir'
@@ -167,7 +166,6 @@ object Form1: TForm1
   end
   object zqry1: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'select * from tabel_kelas')
     Params = <>

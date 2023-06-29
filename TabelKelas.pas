@@ -8,7 +8,7 @@ uses
   ZDataset, ZAbstractConnection, ZConnection, StdCtrls, Grids, DBGrids;
 
 type
-  TForm1 = class(TForm)
+  TFormkls = class(TForm)
     l1: TLabel;
     l2: TLabel;
     l3: TLabel;
@@ -46,28 +46,28 @@ type
   end;
 
 var
-  Form1: TForm1;
+  Formkls: TFormkls;
   id : string;
 
 implementation
 
 {$R *.dfm}
 
-procedure TForm1.editbersih;
+procedure TFormkls.editbersih;
 begin
 Edit1.Clear;
 Edit2.Clear;
 c1.Clear
 end;
 
-procedure TForm1.editenable;
+procedure TFormkls.editenable;
 begin
 edit1.Enabled:= True;
 edit2.Enabled:= True;
 c1.Enabled:= True;
 end;
 
-procedure TForm1.posisiawal;
+procedure TFormkls.posisiawal;
 begin
 editbersih;
 
@@ -82,7 +82,7 @@ b4.Enabled:= False;
 b5.Enabled:= False;
 end;
 
-procedure TForm1.b1Click(Sender: TObject);
+procedure TFormkls.b1Click(Sender: TObject);
 begin
 editbersih;
 
@@ -95,7 +95,7 @@ b5.Enabled:= True;
 editenable;
 end;
 
-procedure TForm1.b2Click(Sender: TObject);
+procedure TFormkls.b2Click(Sender: TObject);
 begin
 if (Edit1.Text= '')or (Edit2.Text ='')or(c1.Text= '')then
 begin
@@ -121,7 +121,7 @@ posisiawal;
 end;
 end;
 
-procedure TForm1.b3Click(Sender: TObject);
+procedure TFormkls.b3Click(Sender: TObject);
 begin
 if (Edit1.Text= '')or (Edit2.Text ='')or(c1.Text= '')then
 begin
@@ -146,7 +146,7 @@ posisiawal;
 end;
 end;
 
-procedure TForm1.b4Click(Sender: TObject);
+procedure TFormkls.b4Click(Sender: TObject);
 begin
 if MessageDlg('APAKAH YAKIN MENGHAPUS DATA INI?',mtWarning,[mbYes,mbNo],0)= mryes then
 begin
@@ -166,17 +166,17 @@ posisiawal;
 end;
 end;
 
-procedure TForm1.b5Click(Sender: TObject);
+procedure TFormkls.b5Click(Sender: TObject);
 begin
 posisiawal;
 end;
 
-procedure TForm1.FormShow(Sender: TObject);
+procedure TFormkls.FormShow(Sender: TObject);
 begin
 posisiawal;
 end;
 
-procedure TForm1.dg1CellClick(Column: TColumn);
+procedure TFormkls.dg1CellClick(Column: TColumn);
 begin
 b1.Enabled:= true;
 b2.Enabled:= False;
@@ -188,7 +188,7 @@ Edit1.Text:= zqry1.FieldList[1].AsString;
 Edit2.Text:= zqry1.FieldList[2].AsString;
 c1.Text:= zqry1.FieldList[3].AsString;
 end;
-procedure TForm1.b6Click(Sender: TObject);
+procedure TFormkls.b6Click(Sender: TObject);
 begin
 frxrprt1.showreport();
 end;
